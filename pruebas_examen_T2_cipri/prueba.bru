@@ -1,0 +1,24 @@
+meta {
+  name: prueba
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://localhost:8000/api/find/1
+  body: json
+  auth: inherit
+}
+
+body:json {
+  {
+    "name": "Find Order"
+    "type": "http"
+    "seq": "3"
+  }
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}

@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "pruebas_examen_T2_cipri",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
